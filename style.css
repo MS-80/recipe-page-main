@@ -32,7 +32,7 @@ h2 {
 }
 
 .omelette {
-    background-image: url("/assets/images/image-omelette.jpeg");
+    background-image: url('assets/images/image-omelette.jpeg');
     width: 600px;
     height: 330px;
     width: 100%;
