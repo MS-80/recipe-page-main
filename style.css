@@ -1,0 +1,183 @@
+@font-face{
+    font-family: 'young';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face{
+    font-family: outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    /* width: 100%; */
+    /* height: 500vh; */
+    background-color:hsl(30, 54%, 90%);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    font-family: 'outfit';
+}
+
+h2 {
+    font-family: 'young';
+}
+
+.bg {
+    background-color:white;
+    width:700px;
+    min-height: 600px;
+    padding: 20px;
+    margin: 40px auto 0 auto;
+    border-radius: 30px;
+}
+
+.omelette {
+    background-image: url("/assets/images/image-omelette.jpeg");
+    width: 600px;
+    height: 330px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.img {
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    margin: 20px 65px 0 50px;
+    border-radius: 10px;
+    
+
+}
+
+
+.hero {
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    height: 150px;
+    margin:  25px 0;
+    
+}
+
+.hero h1{
+    font-family: young;
+    line-height: 80px;
+}
+
+
+.time {
+    background-color: hsl(330, 100%, 98%);
+    /* background: red; */
+    width: 100%;
+    height: 150px;
+    /* padding-left: 15px; */
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.time h3{
+    padding: 15px;
+    color:hsl(332, 51%, 32%)
+    
+}
+
+.time ul {
+       padding: 0px 25px;
+       line-height: 30px;
+       margin-left: 20px;
+}
+
+.Ingredients {
+    width: 100%;
+    height: 230px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.338);
+
+}
+
+.Ingredients h2 {
+      line-height: 50px;
+      margin-left: 15px ; 
+      color:  hsl(14, 45%, 36%); 
+}
+.Ingredients ul {
+    margin-left: 30px;
+    line-height: 35px;
+}
+
+.Instructions {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.338);
+}
+
+.Instructions h2 {
+    color:  hsl(14, 45%, 36%);
+    line-height: 70px;
+    margin-left: 15px;
+    /* font-size: 30px; */
+}
+
+.Instructions ol {
+    margin-left: 30px ;
+    line-height: 35px;
+}
+
+.Nutrition {
+    width: 100%;
+}
+
+.Nutrition h2{
+    color:  hsl(14, 45%, 36%);
+    line-height: 70px;
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+table tr th, td {
+    width: 300px;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+table tr th {
+    text-align: start;
+    color: hsl(14, 45%, 36%);
+}
+
+.attribution{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 500px;
+    margin: 0 auto 20px auto;
+}
+
+@media (max-width: 486px) {
+    
+    .bg{
+        width: 500px;
+        min-height: 600px;
+        margin:0 0 0 0;
+        border-radius: 0;
+        padding: 0;
+
+    }
+    .omelette{
+        border-radius: 0;
+        padding: 0px;
+    }
+    .main{
+        padding: 10px;
+    }
+    .attribution{
+        margin: 0;
+        padding: 0;
+    }
+
+}
